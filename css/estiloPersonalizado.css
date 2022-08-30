@@ -1,8 +1,29 @@
-#fundoMenu{
-     background-color: rgb(131, 131, 131);
+.formularioFilie{
+    min-height: 100vh;
+    max-width: 70%;
+    margin: 100px auto;
+
 }
 
-.formularioFilie{
-    margin: 50px auto;
-    width: 70%;
+#fundoMenu{
+    background-color: silver;
+}
+
+
+
+@media screen and (max-width:780px) {
+    .flexCaixa{
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .flexCaixa1{
+     width: 90%;
+     text-align: center;
+    }
+    
+    .flexCaixa2{
+        width: 100%;
+        margin: 10px;
+    }
 }

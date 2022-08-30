@@ -10,11 +10,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="/site/css/estiloPersonalizado.css">
+    <link rel="stylesheet" href="/css/estiloPersonalizado.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    
     <div class="preloader">
       <div class="preloader-body">
         <div class="loader">
@@ -28,10 +28,12 @@
           <div></div>
           <div></div>
         </div>
-        <p>Loading...</p>
+        <p>Carregando...</p>
       </div>
     </div>
     <div class="page">
+      
+
       <header class="section page-header rd-navbar-transparent-wrap">
         <!--RD Navbar-->
         <div class="rd-navbar-wrap">
@@ -57,19 +59,19 @@
                     <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                     <!--RD Navbar Brand-->
                     <div class="rd-navbar-brand">
-                      <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="img/logoPSP.png" alt="" width="146" height="22"/><img class="brand-logo-light" src="img/miniLogo.png" alt="" width="155" height="22"/></a>
+                      <!--Brand--><a class="brand" href="/"><img class="brand-logo-dark" src="img/logoPSP.png" alt="" width="146" height="22"/><img class="brand-logo-light" src="img/miniLogo.png" alt="" width="155" height="22"/></a>
                     </div>
                   </div>
                   <div class="rd-navbar-main-element">
                     <div class="rd-navbar-nav-wrap" >
                       <ul class="rd-navbar-nav">
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
                         </li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">Nossa História</a>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="nossaHistoria">Nossa História</a>
                         </li>
-                        <li class="rd-nav-item active"><a class="rd-nav-link" href="typography.html">Filie-se</a>
+                        <li class="rd-nav-item active"><a class="rd-nav-link" href="filiacao">Filie-se</a>
                         </li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contato</a>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="contato">Contato</a>
                         </li>
                       </ul>
                     </div>
@@ -79,13 +81,17 @@
             </div>
           </nav>
         </div>
+
+        
         <div class="rd-navbar-bg novi-background bg-image" style="background-image: url(images/bg-navbar.jpg)"></div>
       </header>
+
+
       <!-- Breadcrumbs-->
       <section class="breadcrumbs-custom bg-image novi-background bg-primary mt-1">
         <div class="container">
           <ul class="breadcrumbs-custom-path">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li class="active">Filie-se</li>
           </ul>
         </div>
@@ -102,12 +108,12 @@
                 <!-- Owl Carousel-->
                 <div class="owl-carousel owl-carousel-1" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="false">
                   <blockquote class="quote quote-simple">
-                    <q>Costrax is one of the best when it comes to high-quality corporate structuring, financial strategy, and tax management.</q>
+                    <q>Agora temos voz, a busca de nossos direitos e interesses não podem ser esquecidos.</q>
                     <div class="quote-meta">
                       <div class="author">
-                        <cite>Sara Parker</cite>
+                        <cite>Jose Freitas / São Paulo - SP</cite>
                       </div>
-                      <div class="position">Chief executive officer</div>
+                      <div class="position">Filiado do PSP</div>
                     </div>
                   </blockquote>
                   <blockquote class="quote quote-simple">
@@ -136,53 +142,14 @@
         <div class="box-image-item novi-background bg-image" style="background-image: url(img/pessoasUnidas.jpg)"></div>
       </section>
       
-      <section class="formularioFilie">
-        <form class="row g-3">
-          <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
-          </div>
-          <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Password</label>
-            <input type="password" class="form-control" id="inputPassword4">
-          </div>
-          <div class="col-12">
-            <label for="inputAddress" class="form-label">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-          </div>
-          <div class="col-12">
-            <label for="inputAddress2" class="form-label">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-          </div>
-          <div class="col-md-6">
-            <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-          <div class="col-md-4">
-            <label for="inputState" class="form-label">State</label>
-            <select id="inputState" class="form-select">
-              <option selected>Choose...</option>
-              <option>...</option>
-            </select>
-          </div>
-          <div class="col-md-2">
-            <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
-          </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign in</button>
-          </div>
-        </form>
-      </section>
-
+      <div class="section-lg section-lg-top-100 text-center">
+        <h2 class="text-center"><span>Filie-se <br></span></h2>
+        <p class="big text-center">Qualquer cidadão que se que acredite no Brasil e na Democracia pode se filiar ao PSP. <br/> 
+          Cidadãos com 16 anos de idade ou mais, goze de plenos direitos políticos, não esteja filiado a outro <br/>
+          partido e possua domicilio eleitoral no mesmo município em que queira se filiar. Basta preencher a ficha de inscrição<br/>
+          e pronto! Seja bem vindo! </p>
+        <div class="group-sm group-wrap-2"><a class="button button-icon button-icon-right button-secondary" href="img/EstatutoPSP.pdf" download="Estatuto PSP"><span>Ficha de Filiação</span></a></div>
+      </div>
       
       <footer class="section footer-classic">
         <div class="footer-inner-1">
