@@ -12,41 +12,45 @@
 </head>
 
 <body>
-    
-    <h1>Ficha Cadastral</h1>
+    <div class="text-center mt-5"> 
+    <h1>PRE CADASTRO DE APOIO AO PSP</h1>
+    <p>Diante da legislação atual somente é valida assinatura digital  com certificados padrão ICPBrasil, por isso faça 
+        faça seu pre cadastro e em breve enviaremos mais informações!!
+    </p>
+    </div>
 
 
     <section class="formularioFilie">
 
-        <form class="row g-3">
+        <form class="row g-3" action="https://api.sheetmonkey.io/form/jqmva4K9PPrEHZWWEe7b93" method="POST">
 
             <div class="col-md-6">
                 <label for="nomeCompleto" class="form-label">Nome Completo</label>
-                <input type="text" class="form-control" id="nomeCompleto">
+                <input type="text" class="form-control" id="nomeCompleto" name="NomeCompleto">
             </div>
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4">
+                <input type="email" class="form-control" id="inputEmail4" name="Email">
             </div>
             <div class="col-md-6">
                 <label for="inputTelefone" class="form-label">Telefone</label>
-                <input type="tel" class="form-control" id="inputTelefone">
+                <input type="tel" class="form-control" id="inputTelefone" name="Telefone">
             </div>
             <div class="col-md-6">
                 <label for="inputNascimento" class="form-label">Data Nascimento</label>
-                <input type="date" class="form-control" id="inputNascimento">
+                <input type="date" class="form-control" id="inputNascimento" name="nascimento">
             </div>
             <div class="col-md-6">
                 <label for="inputCPF" class="form-label">CPF</label>
-                <input type="tel" class="form-control" id="inputCPF">
+                <input type="tel" class="form-control" id="inputCPF" name="CPF">
             </div>
             <div class="col-md-6">
                 <label for="inputRG" class="form-label">RG</label>
-                <input type="date" class="form-control" id="inputRG">
+                <input type="text" class="form-control" id="inputRG" name="RG">
             </div>
             <div class="col-md-4">
                 <label for="inputEstadoCivil" class="form-label">Estado Civil</label>
-                <select id="inputEstadoCivil" class="form-select">
+                <select id="inputEstadoCivil" class="form-select" name="EstadoCivil">
                     <option>Solteriro(a)</option>
                     <option>Casado(a)</option>
                     <option>Divorciado(a)</option>
@@ -59,32 +63,32 @@
             </div>
             <div class="col-md-8">
                 <label for="inputNaturalidade" class="form-label">Naturalidade</label>
-                <input type="text" class="form-control" id="inputNaturalidade" placeholder="Cidade em que nasceu">
+                <input type="text" class="form-control" id="inputNaturalidade" placeholder="Cidade em que nasceu" name="Naturalidade">
             </div>
             <div class="col-md-6">
                 <label for="inputPai" class="form-label">Nome do Pai</label>
-                <input type="tel" class="form-control" id="inputPai">
+                <input type="tel" class="form-control" id="inputPai" name="NomeDoPai">
             </div>
             <div class="col-md-6">
                 <label for="inputMae" class="form-label">Nome da mãe</label>
-                <input type="text" class="form-control" id="inputMae">
+                <input type="text" class="form-control" id="inputMae" name="NomeDaMae">
             </div>
             <div class="col-12">
                 <label for="inputEndereco" class="form-label">Endereço</label>
-                <input type="text" class="form-control" id="inputEndereco" placeholder="Digite aqui seu endereço">
+                <input type="text" class="form-control" id="inputEndereco" placeholder="Digite aqui seu endereço" name="Endereço">
             </div>
             <div class="col-12">
                 <label for="inputComplemento" class="form-label">Complemento</label>
                 <input type="text" class="form-control" id="inputComplemento"
-                    placeholder="Apartamento, Casa, Andar, ou Ponto de Referência">
+                    placeholder="Apartamento, Casa, Andar, ou Ponto de Referência" name="Complemento">
             </div>
             <div class="col-md-6">
                 <label for="inputCidade" class="form-label">Cidade</label>
-                <input type="text" class="form-control" id="inputCidade">
+                <input type="text" class="form-control" id="inputCidade" name="Cidade">
             </div>
             <div class="col-md-4">
                 <label for="inputEstado" class="form-label">Estado</label>
-                <select id="inputEstado" class="form-select">
+                <select id="inputEstado" class="form-select" name="Estado">
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
                     <option value="AP">Amapá</option>
@@ -118,11 +122,12 @@
             </div>
             <div class="col-md-2">
                 <label for="inputCep" class="form-label">CEP</label>
-                <input type="text" class="form-control" id="inputCep">
+                <input type="text" class="form-control" id="inputCep" name="CEP">
             </div>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
 
             <div class="col-12">
-                <button type="submit" class="btn btn-primary">Filie-se</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
         </form>
 
